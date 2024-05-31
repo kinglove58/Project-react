@@ -1,8 +1,49 @@
+import {
+  Nav,
+  Subscribe,
+  Footer,
+  Hero,
+  CustomerReview,
+  PopularProduct,
+  SuperQuality,
+  Services,
+  SpecialOffer,
+  QualityProduct,
+} from "./section";
+
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <main className="relative">
+      <Nav />
+      <section>
+        <Hero />
+      </section>
+      <section>
+        <QualityProduct />
+      </section>
+      <section>
+        <SuperQuality />    
+      </section>
+      <section>
+        <Services />
+      </section>
+      <section>
+        <PopularProduct />
+      </section>
+      <section>
+        <SpecialOffer />
+      </section>
+      <section>
+        <CustomerReview />
+      </section>
+      <section>
+        <Subscribe />
+      </section>
+      <section>
+        <Footer />
+      </section>
+          </main>
   );
 }
 
